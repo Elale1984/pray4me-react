@@ -1,9 +1,10 @@
 import React from 'react';
+import PrayerRequestList from "./PrayerRequestList";
 
-const Pray = () => {
+const Pray = (props) => {
     return (
-        <div>
-
+        <div className='container'>
+            <PrayerRequestList prayerRequestList={props.prayerRequestList} commentsList={props.commentsList} onClick={props.updateSinglePrayerRequest} />
         </div>
     );
 };

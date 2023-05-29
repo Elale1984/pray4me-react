@@ -1,0 +1,11 @@
+textarea {
+    resize: none;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-select {
+    border-radius: 5px;
+}

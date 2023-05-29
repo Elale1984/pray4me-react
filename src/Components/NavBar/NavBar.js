@@ -21,7 +21,7 @@ const NavBar = () => {
                             <Link to='/pray' className="nav-link">Pray</Link>
                         </li>
                         <li className='nav-link'>
-                            <Link to='/request-pray' className="nav-link">Request Prayer</Link>
+                            <Link to='/request-prayer' className="nav-link">Request Prayer</Link>
                         </li>
                     </ul>
                     <form className="d-flex">
